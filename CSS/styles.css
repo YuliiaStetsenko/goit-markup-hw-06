@@ -614,6 +614,7 @@ transition:border var(--transition-dur-and-func), box-shadow var(--transition-du
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
+letter-spacing: 0.06em;
 color: var(--primary-text-color-theme-dark);
 background-color: var(--accent-color);
 align-items: center;
@@ -973,8 +974,8 @@ margin-left: 7px;
         border-radius: 4px;
         min-width: 216px;
         padding: 10px 52px;
-        margin-top: 20px;
-        transition:background-color var(--transition-dur-and-func) , color var(--transition-dur-and-func) ,  box-shadow var(--transition-dur-and-func);
+        margin-top: 30px;
+        transition:background-color var(--transition-dur-and-func) , box-shadow var(--transition-dur-and-func);
 }
 
 .modal_form_submit:hover , .modal_form_submitn:focus {
